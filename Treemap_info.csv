@@ -1,0 +1,18 @@
+Projeto,Categoria,Subcategoria,Conclusao (%),Peso (%),Tem_Subcategoria,Label_Final
+Foundation,Sandbox Foundation (20%),Sandbox Foundation 100%,100,20,TRUE,Sandbox Foundation 100%
+Foundation,Sandbox test (15%),Sandbox test 90%,90,15,TRUE,Sandbox test 90%
+Foundation,Security requirement (25%),Security requirement 95%,95,25,TRUE,Security requirement 95%
+Foundation,Foundation Building (40%),LDZ 100%,100,6.66,TRUE,LDZ 100%
+Foundation,Foundation Building (40%),LOG 100%,100,6.66,TRUE,LOG 100%
+Foundation,Foundation Building (40%),CMDB 100%,100,6.66,TRUE,CMDB 100%
+Foundation,Foundation Building (40%),Network 100%,100,6.66,TRUE,Network 100%
+Foundation,Foundation Building (40%),Automation 80%,80,6.66,TRUE,Automation 80%
+Foundation,Foundation Building (40%),Security 60%,60,6.66,TRUE,Security 60%
+Migration,Survey (25%),Survey 1%,1,25,TRUE,Survey 1%
+Migration,Pilot Migration (15%),Migration Process 80%,80,7.5,TRUE,Migration Process 80%
+Migration,Migration (60%),Pilots (1+2) 100%,100,7.5,TRUE,Pilots (1+2) 100%
+"O&M, New CRs and Revenue Execution",O&M assurance (25%),O&M assurance 80%,80,25,TRUE,O&M assurance 80%
+"O&M, New CRs and Revenue Execution",New CR (25%),AI 10%,10,8.33,TRUE,AI 10%
+"O&M, New CRs and Revenue Execution",New CR (25%),Backup 60%,60,8.33,TRUE,Backup 60%
+"O&M, New CRs and Revenue Execution",New CR (25%),CFTV 10%,10,8.33,TRUE,CFTV 10%
+"O&M, New CRs and Revenue Execution",Revenue Execution for H1 (50%),Revenue Execution for H1 30%,30,50,TRUE,Revenue Execution for H1 30%
