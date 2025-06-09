@@ -85,3 +85,6 @@ Estagiário em Cloud – Huawei Brasil
 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes)
 
 ---
+
+
+![Preview](https://i.ibb.co/rGbPDKkg/Map2.png)
