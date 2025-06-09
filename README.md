@@ -29,3 +29,5 @@ Este projeto foi desenvolvido para dar suporte à equipe de *Professional Servic
    - Gera um gráfico Treemap com base nos pesos e percentuais de conclusão.
    - Aplica um gradiente de cores para indicar o nível de progresso.
 3. O gráfico é exibido de forma interativa no navegador.
+
+![TreeMap](https://i.ibb.co/rGbPDKkg/Map2.png)
