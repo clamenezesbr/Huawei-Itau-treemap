@@ -1,5 +1,5 @@
 # 📊 Visualizador de Progresso do Projeto Huawei - Itaú
-
+ 
 Este projeto tem como objetivo **visualizar de forma clara e interativa o progresso das atividades relacionadas ao projeto de migração em nuvem da Huawei com o banco Itaú**. A ferramenta utiliza dados estruturados em planilhas Excel e os transforma em gráficos de *Treemap*, permitindo uma análise detalhada do andamento por projeto, categoria e subcategoria.
 
 ---
