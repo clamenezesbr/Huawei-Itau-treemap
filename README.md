@@ -1,90 +1,93 @@
-# 📊 Visualizador de Progresso do Projeto Huawei - Itaú
- 
-Este projeto tem como objetivo **visualizar de forma clara e interativa o progresso das atividades relacionadas ao projeto de migração em nuvem da Huawei com o banco Itaú**. A ferramenta utiliza dados estruturados em planilhas Excel e os transforma em gráficos de *Treemap*, permitindo uma análise detalhada do andamento por projeto, categoria e subcategoria.
+Aqui está a tradução completa para o inglês:
 
 ---
 
-## 🔍 Funcionalidades
+# 📊 Huawei - Itaú Project Progress Visualizer
 
-* Visualização em treemap com 3 níveis hierárquicos: Projeto → Categoria → Subcategoria (ou Categoria diretamente, se não houver subcategoria).
-* Cores baseadas no percentual de conclusão, com gradiente de vermelho (0%) a verde (100%).
-* Tamanhos dos blocos proporcionais ao peso (%) de cada atividade.
-* Labels dinâmicos, evitando níveis desnecessários quando não há subcategoria.
+This project aims to **clearly and interactively visualize the progress of activities related to Huawei's cloud migration project with Itaú Bank**. The tool uses structured data from Excel spreadsheets and transforms them into *Treemap* charts, enabling detailed analysis of the progress by project, category, and subcategory.
 
 ---
 
-## 💼 Contexto
+## 🔍 Features
 
-Este projeto foi desenvolvido para dar suporte à equipe de *Professional Services & Delivery* da Huawei no acompanhamento do progresso do projeto de migração em nuvem para o cliente Itaú. A ferramenta permite uma **tomada de decisão mais ágil e estratégica**, baseada em dados atualizados diretamente de uma planilha Excel.
+* Treemap visualization with 3 hierarchical levels: Project → Category → Subcategory (or directly Category, if no subcategory exists).
+* Colors based on completion percentage, with a gradient from red (0%) to green (100%).
+* Block sizes proportional to the weight (%) of each activity.
+* Dynamic labels, avoiding unnecessary levels when no subcategory is present.
 
 ---
-   
-## ⚙️ Tecnologias Utilizadas
+
+## 💼 Context
+
+This project was developed to support Huawei's *Professional Services & Delivery* team in tracking the progress of the cloud migration project for client Itaú. The tool enables **faster and more strategic decision-making**, based on data updated directly from an Excel spreadsheet.
+
+---
+
+## ⚙️ Technologies Used
 
 * **Python 3.x**
-* **Pandas**: para leitura e manipulação de dados.
-* **Plotly Express**: para criação do gráfico Treemap interativo.
-* **Excel (.csv)**: como fonte principal dos dados de progresso.
+* **Pandas**: for data reading and manipulation.
+* **Plotly Express**: for creating the interactive Treemap chart.
+* **Excel (.csv)**: as the main source of progress data.
 
 ---
 
-## 🧠 Como Funciona
+## 🧠 How It Works
 
-1. Os dados são mantidos em uma planilha Excel exportada como `.csv` (ex: `Treemap_info.csv`).
-2. O script em Python:
+1. The data is stored in an Excel spreadsheet exported as `.csv` (e.g., `Treemap_info.csv`).
+2. The Python script:
 
-   * Carrega os dados usando o `pandas`.
-   * Cria uma lógica para evitar subcategorias vazias.
-   * Gera um gráfico Treemap com base nos pesos e percentuais de conclusão.
-   * Aplica um gradiente de cores para indicar o nível de progresso.
-3. O gráfico é exibido de forma interativa no navegador.
+   * Loads the data using `pandas`.
+   * Implements logic to avoid empty subcategories.
+   * Generates a Treemap chart based on weights and completion percentages.
+   * Applies a color gradient to indicate progress level.
+3. The chart is displayed interactively in the browser.
 
 ---
 
-## ▶️ Execução
+## ▶️ Running the Project
 
-Para rodar o projeto localmente:
+To run the project locally:
 
 ```bash
 pip install pandas plotly
 python visualizador.py
 ```
 
-Certifique-se de que o arquivo `Treemap_info.csv` está no mesmo diretório que o script Python.
+Make sure the file `Treemap_info.csv` is in the same directory as the Python script.
 
 ---
 
-## 📁 Estrutura de Arquivos
+## 📁 File Structure
 
 ```
-├── Treemap_info.csv       # Planilha de dados (exportada do Excel)
-├── visualizador.py        # Script principal com a geração do gráfico
-└── README.md              # Documentação do projeto
+├── Treemap_info.csv       # Data spreadsheet (exported from Excel)
+├── visualizador.py        # Main script for chart generation
+└── README.md              # Project documentation
 ```
 
 ---
 
-## 💡 Ideias Futuras
+## 💡 Future Ideas
 
-* 🔧 **Interface Gráfica (GUI)**: Criar uma interface simples onde o usuário possa:
+* 🔧 **Graphical User Interface (GUI)**: Create a simple interface where the user can:
 
-  * Fazer upload de sua própria planilha `.csv`
-  * Visualizar o treemap gerado automaticamente
-  * Ajustar configurações como escala de cores, tamanho da fonte e estrutura do gráfico
+  * Upload their own `.csv` spreadsheet
+  * View the generated treemap automatically
+  * Adjust settings like color scale, font size, and chart structure
 
-* 🌐 **Versão Web (Flask ou Streamlit)**: Disponibilizar o projeto como uma aplicação web, acessível via navegador, facilitando o uso por diferentes áreas da empresa.
+* 🌐 **Web Version (Flask or Streamlit)**: Make the project available as a web application, accessible via browser, facilitating use across different departments of the company.
 
-* 📄 **Exportação em PDF/PNG**: Permitir a exportação do gráfico em formatos estáticos para inclusão em apresentações e relatórios.
+* 📄 **Export to PDF/PNG**: Allow exporting the chart in static formats for use in presentations and reports.
 
 ---
 
-## 👨‍💼 Autor
+## 👨‍💼 Author
 
 **Gabriel Menezes**
-Estagiário em Cloud – Huawei Brasil
+Cloud Intern – Huawei Brazil
 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes)
 
 ---
-
 
 ![Preview](https://i.ibb.co/rGbPDKkg/Map2.png)
