@@ -18,7 +18,7 @@ Este projeto tem como objetivo **visualizar de forma clara e interativa o progre
 Este projeto foi desenvolvido para dar suporte à equipe de *Professional Services & Delivery* da Huawei no acompanhamento do progresso do projeto de migração em nuvem para o cliente Itaú. A ferramenta permite uma **tomada de decisão mais ágil e estratégica**, baseada em dados atualizados diretamente de uma planilha Excel.
 
 ---
-
+   
 ## ⚙️ Tecnologias Utilizadas
 
 * **Python 3.x**
